@@ -1,0 +1,42 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+/** @var Magento\Customer\Block\Account\AuthenticationPopup $block */
+/** @var Magento\Framework\View\Helper\SecureHtmlRenderer $secureRenderer */
+/** @var Magento\Customer\ViewModel\Customer\StoreConfig $viewModel */
+/** @var MageBig\MbLib\ViewModel\StoreConfig $viewModelConfig */
+
+$viewModel = $block->getViewModel();
+$viewModelConfig = $block->getViewModelConfig();
+$isSocial = $viewModelConfig->isEnableModule('MageBig_SocialLogin');
+$isEnable = $viewModelConfig->getValue('sociallogin/general/enabled');
+?>
+<?php $scriptString = 'window.authenticationPopup = ' . /* @noEscape */ $block->getSerializedConfig(); ?>
+<?= /* @noEscape */ $secureRenderer->renderTag('script', [], $scriptString, false); ?>
+<?php if (!($isSocial && $isEnable)) : ?>
+<div id="authenticationPopup" data-bind="scope:'authenticationPopup'" style="display: none;">
+    <!-- ko template: getTemplate() --><!-- /ko -->
+    <script type="text/x-magento-init">
+        {
+            "#authenticationPopup": {
+                "Magento_Ui/js/core/app": <?= /* @noEscape */ $block->getJsLayout() ?>
+            },
+            "*": {
+                "Magento_Ui/js/block-loader": "#"
+            }
+        }
+    </script>
+</div>
+<?php endif ?>
+<?php if ($viewModel->isGlobalScopeEnabled()): ?>
+<script type="text/x-magento-init">
+    {
+        "*": {
+                "Magento_Customer/js/customer-global-session-loader": {}
+        }
+    }
+</script>
+<?php endif ?>

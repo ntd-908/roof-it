@@ -1,0 +1,44 @@
+<?php
+/**
+ * Copyright © 2020 MageBig, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+?>
+
+<?php
+/**
+ * @var $block MageBig\Shopbybrand\Block\Brand\BrandInformation
+ */ ?>
+
+<?php
+$brand = $block->getBrand();
+$displayThumbnail = $block->getConfig('magebig_shopbybrand/brand_page/display_thumbnail') &&
+    $brand->getMbBrandThumbnail();
+if ($brandDesc = $brand->getMbBrandDescription()) {
+    $brandDesc = $this->helper('MageBig\Shopbybrand\Helper\Data')->htmlFilter($brandDesc);
+}
+$displayDescription = $block->getConfig('magebig_shopbybrand/brand_page/display_description') && $brandDesc;
+$brand->setThumbnail($block->getThumbnailImage($brand, ['width' => 250]));
+?>
+<?php if ($displayThumbnail || $displayDescription) : ?>
+<div class="brand-catalog-container" itemscope itemtype="http://schema.org/brand">
+    <div class="block-content">
+        <div class="row">
+			<div class="col-12">
+                <?php if ($displayThumbnail) : ?>
+                <div class="brand-thumb-section d-inline-block">
+                    <div class="brand-thumb-wrap">
+                        <img class="brand-image img-fluid" itemprop="image" src="<?= $brand->getThumbnail(); ?>" />
+                    </div>
+                </div>
+                <?php endif ?>
+                <?php if ($brandDesc) : ?>
+            	<div class="brand-desc d-inline-block" itemprop="description">
+                    <?= $brandDesc ?>
+                </div>
+                <?php endif ?>
+            </div>
+        </div>
+    </div>
+</div>
+<?php endif ?>

@@ -1,0 +1,29 @@
+<?php
+/** @var Magento\Framework\View\Helper\SecureHtmlRenderer $secureRenderer */
+?>
+<?php
+$scriptString = <<<script
+    window.initLazyLoadFunction = function(isWait, callback) {
+        let eventName,
+            variables = arguments;
+        eventName = !isWait ? ['load'] : ['keydown', 'mouseover', 'scroll', 'touchstart', 'wheel'];
+        (function (events) {
+            const initFunction = function () {
+                events.forEach(function (eventType) {
+                    window.removeEventListener(eventType, initFunction);
+                });
+
+                if (variables[2] !== undefined) {
+                    callback(variables[2]);
+                } else {
+                    callback();
+                }
+            }
+            events.forEach(function (eventType) {
+                window.addEventListener(eventType, initFunction, {once: true, passive: true})
+            })
+        })(eventName);
+    }
+script;
+?>
+<?= /* @noEscape */ $secureRenderer->renderTag('script', [], $scriptString, false) ?>

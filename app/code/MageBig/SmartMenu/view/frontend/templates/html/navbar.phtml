@@ -1,0 +1,11 @@
+<div class="magebig-mobile-menu overlay-contentpush">
+    <div class="nav-bar-wrap">
+        <nav class="nav-bar">
+            <?= $this->getChildHtml('logo-nav') ?>
+            <ul id="mb-collapsible" class="nav-collapse nav-mobile-accordion"><li></li></ul>
+            <?= $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('horizontal-menu-mobile')
+                ->toHtml(); ?>
+        </nav>
+        <div class="close-nav"><span aria-hidden="true" class="mbi mbi-arrow-left"></span></div>
+    </div>
+</div>
