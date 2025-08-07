@@ -53,35 +53,35 @@
         },
         {
             "name": "adobe-commerce/adobe-ims-metapackage",
-            "version": "2.2.3",
+            "version": "2.2.2",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/adobe-commerce/adobe-ims-metapackage/adobe-commerce-adobe-ims-metapackage-2.2.3.0.zip",
-                "shasum": "fb40070ed75e894d35fc7411ef2eaee6448c65a7"
+                "url": "https://repo.magento.com/archives/adobe-commerce/adobe-ims-metapackage/adobe-commerce-adobe-ims-metapackage-2.2.2.0.zip",
+                "shasum": "c9cb115e26b898713356c222697a4df769d96239"
             },
             "require": {
-                "magento/module-admin-adobe-ims": "100.5.3",
-                "magento/module-admin-adobe-ims-two-factor-auth": "1.0.2",
-                "magento/module-adobe-ims": "2.2.2",
-                "magento/module-adobe-ims-api": "2.2.2",
-                "php": "~8.2.0||~8.3.0||~8.4.0"
+                "magento/module-admin-adobe-ims": "100.5.2",
+                "magento/module-admin-adobe-ims-two-factor-auth": "1.0.1",
+                "magento/module-adobe-ims": "2.2.1",
+                "magento/module-adobe-ims-api": "2.2.1",
+                "php": "~8.1.0||~8.2.0||~8.3.0"
             },
             "type": "metapackage",
             "description": "Adobe IMS Integration"
         },
         {
             "name": "adobe-commerce/os-extensions-metapackage",
-            "version": "1.0.2",
+            "version": "1.0.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/adobe-commerce/os-extensions-metapackage/adobe-commerce-os-extensions-metapackage-1.0.2.0.zip",
-                "shasum": "4c10f03cbbbdec4167f9d84ed9f959714d12d314"
+                "url": "https://repo.magento.com/archives/adobe-commerce/os-extensions-metapackage/adobe-commerce-os-extensions-metapackage-1.0.0.0.zip",
+                "shasum": "438f5690d41600fa341e629e96ea982882c2be42"
             },
             "require": {
-                "adobe-commerce/adobe-ims-metapackage": ">=2.2.3@beta <3.0.0",
-                "magento/adobe-stock-integration": ">=2.1.7@beta <3.0.0",
+                "adobe-commerce/adobe-ims-metapackage": "~2.2.1",
+                "magento/adobe-stock-integration": "~2.1.6",
                 "magento/payment-services": "^2.0",
-                "paypal/module-braintree": "^4.6"
+                "paypal/module-braintree": "~4.6.0"
             },
             "type": "metapackage",
             "description": "Metapackage contains references to extensions bundled with Magento OS"
@@ -4900,21 +4900,21 @@
         },
         {
             "name": "magento/adobe-stock-integration",
-            "version": "2.1.7-p1",
+            "version": "2.1.6-p6",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/adobe-stock-integration/magento-adobe-stock-integration-2.1.7.0-patch1.zip",
-                "shasum": "47578260cf822db97745549c7da4ec7db95782f0"
+                "url": "https://repo.magento.com/archives/magento/adobe-stock-integration/magento-adobe-stock-integration-2.1.6.0-patch6.zip",
+                "shasum": "b1c0f52bbd8cd7c2cdca9807d159602a41bafcd7"
             },
             "require": {
-                "magento/module-adobe-stock-admin-ui": "1.3.5",
-                "magento/module-adobe-stock-asset": "1.3.4",
-                "magento/module-adobe-stock-asset-api": "2.0.4",
-                "magento/module-adobe-stock-client": "1.3.5",
-                "magento/module-adobe-stock-client-api": "2.1.5",
-                "magento/module-adobe-stock-image": "1.3.6",
-                "magento/module-adobe-stock-image-admin-ui": "1.3.6",
-                "magento/module-adobe-stock-image-api": "1.3.4"
+                "magento/module-adobe-stock-admin-ui": "1.3.4",
+                "magento/module-adobe-stock-asset": "1.3.3",
+                "magento/module-adobe-stock-asset-api": "2.0.3",
+                "magento/module-adobe-stock-client": "1.3.4",
+                "magento/module-adobe-stock-client-api": "2.1.4",
+                "magento/module-adobe-stock-image": "1.3.5",
+                "magento/module-adobe-stock-image-admin-ui": "1.3.5-p1",
+                "magento/module-adobe-stock-image-api": "1.3.3"
             },
             "type": "metapackage",
             "description": "Adobe Stock integration"
@@ -6088,11 +6088,11 @@
         },
         {
             "name": "magento/module-admin-adobe-ims",
-            "version": "100.5.3",
+            "version": "100.5.2",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-admin-adobe-ims/magento-module-admin-adobe-ims-100.5.3.0.zip",
-                "shasum": "82fe7f1d794f409130db47e03a22ed148aba45ec"
+                "url": "https://repo.magento.com/archives/magento/module-admin-adobe-ims/magento-module-admin-adobe-ims-100.5.2.0.zip",
+                "shasum": "377923bc3ab9adedd73907de0964ff173c108391"
             },
             "require": {
                 "magento/framework": "*",
@@ -6108,7 +6108,7 @@
                 "magento/module-security": "*",
                 "magento/module-store": "*",
                 "magento/module-user": "*",
-                "php": "~8.2.0||~8.3.0||~8.4.0"
+                "php": "~8.1.0||~8.2.0||~8.3.0"
             },
             "suggest": {
                 "magento/module-theme": "*"
@@ -6130,17 +6130,17 @@
         },
         {
             "name": "magento/module-admin-adobe-ims-two-factor-auth",
-            "version": "1.0.2",
+            "version": "1.0.1",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-admin-adobe-ims-two-factor-auth/magento-module-admin-adobe-ims-two-factor-auth-1.0.2.0.zip",
-                "shasum": "d35ab769d736cb591c3575ec25407a70ba4cec14"
+                "url": "https://repo.magento.com/archives/magento/module-admin-adobe-ims-two-factor-auth/magento-module-admin-adobe-ims-two-factor-auth-1.0.1.0.zip",
+                "shasum": "ef991ee995e9348dcb977d46394e7bbb53073356"
             },
             "require": {
                 "magento/framework": "*",
                 "magento/module-admin-adobe-ims": "100.5.*",
                 "magento/module-two-factor-auth": "*",
-                "php": "~8.2.0||~8.3.0||~8.4.0"
+                "php": "~8.1.0||~8.2.0||~8.3.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -6252,11 +6252,11 @@
         },
         {
             "name": "magento/module-adobe-ims",
-            "version": "2.2.2",
+            "version": "2.2.1",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-adobe-ims/magento-module-adobe-ims-2.2.2.0.zip",
-                "shasum": "d8080feadaccb15e38b360696c40616a8988d755"
+                "url": "https://repo.magento.com/archives/magento/module-adobe-ims/magento-module-adobe-ims-2.2.1.0.zip",
+                "shasum": "371ad8d396f0792a48ec881bf8215267691a5c37"
             },
             "require": {
                 "magento/framework": "*",
@@ -6265,7 +6265,7 @@
                 "magento/module-backend": "*",
                 "magento/module-config": "*",
                 "magento/module-user": "*",
-                "php": "~8.2.0||~8.3.0||~8.4.0"
+                "php": "~8.1.0||~8.2.0||~8.3.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -6284,15 +6284,15 @@
         },
         {
             "name": "magento/module-adobe-ims-api",
-            "version": "2.2.2",
+            "version": "2.2.1",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-adobe-ims-api/magento-module-adobe-ims-api-2.2.2.0.zip",
-                "shasum": "8483b3547d60421f948c44b941ecc5c02a699ece"
+                "url": "https://repo.magento.com/archives/magento/module-adobe-ims-api/magento-module-adobe-ims-api-2.2.1.0.zip",
+                "shasum": "f4cfaf688e19439ddd2d6d0faaf53f9b2c260ce0"
             },
             "require": {
                 "magento/framework": "*",
-                "php": "~8.2.0||~8.3.0||~8.4.0"
+                "php": "~8.1.0||~8.2.0||~8.3.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -6311,11 +6311,11 @@
         },
         {
             "name": "magento/module-adobe-stock-admin-ui",
-            "version": "1.3.5",
+            "version": "1.3.4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-adobe-stock-admin-ui/magento-module-adobe-stock-admin-ui-1.3.5.0.zip",
-                "shasum": "f82b39b38ade0a221829558ac854d29113981206"
+                "url": "https://repo.magento.com/archives/magento/module-adobe-stock-admin-ui/magento-module-adobe-stock-admin-ui-1.3.4.0.zip",
+                "shasum": "3b8bb19b26d3c122258becb398649d8847c66061"
             },
             "require": {
                 "magento/framework": "*",
@@ -6324,7 +6324,7 @@
                 "magento/module-adobe-stock-client-api": "2.1.*",
                 "magento/module-backend": "*",
                 "magento/module-config": "*",
-                "php": "~8.2.0||~8.3.0||~8.4.0"
+                "php": "~8.1.0||~8.2.0||~8.3.0"
             },
             "suggest": {
                 "magento/module-cms": "*"
@@ -6346,11 +6346,11 @@
         },
         {
             "name": "magento/module-adobe-stock-asset",
-            "version": "1.3.4",
+            "version": "1.3.3",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-adobe-stock-asset/magento-module-adobe-stock-asset-1.3.4.0.zip",
-                "shasum": "9f109b0b361ae1813c4f45565a9cb0b6bee529f7"
+                "url": "https://repo.magento.com/archives/magento/module-adobe-stock-asset/magento-module-adobe-stock-asset-1.3.3.0.zip",
+                "shasum": "acf7b5c061fb82c3412f028d246cd2603a7888d3"
             },
             "require": {
                 "magento/framework": "*",
@@ -6359,7 +6359,7 @@
                 "magento/module-config": "*",
                 "magento/module-media-gallery": "*",
                 "magento/module-media-gallery-api": "*",
-                "php": "~8.2.0||~8.3.0||~8.4.0"
+                "php": "~8.1.0||~8.2.0||~8.3.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -6378,15 +6378,15 @@
         },
         {
             "name": "magento/module-adobe-stock-asset-api",
-            "version": "2.0.4",
+            "version": "2.0.3",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-adobe-stock-asset-api/magento-module-adobe-stock-asset-api-2.0.4.0.zip",
-                "shasum": "ddddf828356267042d15e2e387c82c06626f03fe"
+                "url": "https://repo.magento.com/archives/magento/module-adobe-stock-asset-api/magento-module-adobe-stock-asset-api-2.0.3.0.zip",
+                "shasum": "f40806896e0403134469438222a2ace76afdbc80"
             },
             "require": {
                 "magento/framework": "*",
-                "php": "~8.2.0||~8.3.0||~8.4.0"
+                "php": "~8.1.0||~8.2.0||~8.3.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -6405,18 +6405,18 @@
         },
         {
             "name": "magento/module-adobe-stock-client",
-            "version": "1.3.5",
+            "version": "1.3.4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-adobe-stock-client/magento-module-adobe-stock-client-1.3.5.0.zip",
-                "shasum": "05de1373224bf5a3d094188644a39844af3d5238"
+                "url": "https://repo.magento.com/archives/magento/module-adobe-stock-client/magento-module-adobe-stock-client-1.3.4.0.zip",
+                "shasum": "a3303c3f763ad00eab53fa7434ad3ee991efd034"
             },
             "require": {
-                "astock/stock-api-libphp": "^1.1.6",
+                "astock/stock-api-libphp": "^1.1.2",
                 "magento/framework": "*",
                 "magento/module-adobe-ims-api": "*",
                 "magento/module-adobe-stock-client-api": "2.1.*",
-                "php": "~8.2.0||~8.3.0||~8.4.0"
+                "php": "~8.1.0||~8.2.0||~8.3.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -6435,15 +6435,15 @@
         },
         {
             "name": "magento/module-adobe-stock-client-api",
-            "version": "2.1.5",
+            "version": "2.1.4",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-adobe-stock-client-api/magento-module-adobe-stock-client-api-2.1.5.0.zip",
-                "shasum": "d6a703a4dbd8d3c224c866b29de210cd5ca98dfa"
+                "url": "https://repo.magento.com/archives/magento/module-adobe-stock-client-api/magento-module-adobe-stock-client-api-2.1.4.0.zip",
+                "shasum": "70626aaf3ef2d8aa3e3954e40e00d16ff186191e"
             },
             "require": {
                 "magento/framework": "*",
-                "php": "~8.2.0||~8.3.0||~8.4.0"
+                "php": "~8.1.0||~8.2.0||~8.3.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -6462,11 +6462,11 @@
         },
         {
             "name": "magento/module-adobe-stock-image",
-            "version": "1.3.6",
+            "version": "1.3.5",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-adobe-stock-image/magento-module-adobe-stock-image-1.3.6.0.zip",
-                "shasum": "ee9f23c5f6024808b9404eb854fe04a664424ca6"
+                "url": "https://repo.magento.com/archives/magento/module-adobe-stock-image/magento-module-adobe-stock-image-1.3.5.0.zip",
+                "shasum": "c7618361e5ad4a908c7038d97013f27f0a42ae21"
             },
             "require": {
                 "magento/framework": "*",
@@ -6475,7 +6475,7 @@
                 "magento/module-adobe-stock-image-api": "1.3.*",
                 "magento/module-media-gallery-api": "*",
                 "magento/module-media-gallery-synchronization-api": "*",
-                "php": "~8.2.0||~8.3.0||~8.4.0"
+                "php": "~8.1.0||~8.2.0||~8.3.0"
             },
             "suggest": {
                 "magento/module-catalog": "*"
@@ -6497,11 +6497,11 @@
         },
         {
             "name": "magento/module-adobe-stock-image-admin-ui",
-            "version": "1.3.6",
+            "version": "1.3.5-p1",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-adobe-stock-image-admin-ui/magento-module-adobe-stock-image-admin-ui-1.3.6.0.zip",
-                "shasum": "6daa2e2a04c14b71792806a4a710914e6bdd6cce"
+                "url": "https://repo.magento.com/archives/magento/module-adobe-stock-image-admin-ui/magento-module-adobe-stock-image-admin-ui-1.3.5.0-patch1.zip",
+                "shasum": "46c1ec141b0216cf1d5675c06ba96470b13dd37a"
             },
             "require": {
                 "magento/framework": "*",
@@ -6514,7 +6514,7 @@
                 "magento/module-media-gallery-api": "*",
                 "magento/module-media-gallery-ui": "*",
                 "magento/module-ui": "*",
-                "php": "~8.2.0||~8.3.0||~8.4.0"
+                "php": "~8.1.0||~8.2.0||~8.3.0"
             },
             "suggest": {
                 "magento/module-cms": "*"
@@ -6536,15 +6536,15 @@
         },
         {
             "name": "magento/module-adobe-stock-image-api",
-            "version": "1.3.4",
+            "version": "1.3.3",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-adobe-stock-image-api/magento-module-adobe-stock-image-api-1.3.4.0.zip",
-                "shasum": "37c644708a2f8cb295fb256d3e6cb4f20a3d08d2"
+                "url": "https://repo.magento.com/archives/magento/module-adobe-stock-image-api/magento-module-adobe-stock-image-api-1.3.3.0.zip",
+                "shasum": "e645853e87422778a4085db9256fce8da5b583d8"
             },
             "require": {
                 "magento/framework": "*",
-                "php": "~8.2.0||~8.3.0||~8.4.0"
+                "php": "~8.1.0||~8.2.0||~8.3.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -19217,23 +19217,21 @@
         },
         {
             "name": "paypal/module-braintree",
-            "version": "4.7.0",
+            "version": "4.6.1-p5",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/paypal/module-braintree/paypal-module-braintree-4.7.0.0.zip",
-                "shasum": "a88fb92b15b57dc46572159a2e41edf19486a1d2"
+                "url": "https://repo.magento.com/archives/paypal/module-braintree/paypal-module-braintree-4.6.1.0-patch5.zip",
+                "shasum": "9b85085f6dd3afbf37b89138930378da6963dd7b"
             },
             "require": {
                 "braintree/braintree_php": "6.21.0",
                 "magento/framework": "*",
-                "paypal/module-braintree-core": "4.7.0",
-                "paypal/module-braintree-customer-balance": "4.7.0",
-                "paypal/module-braintree-gift-card": "4.7.0",
-                "paypal/module-braintree-gift-card-account": "4.7.0",
-                "paypal/module-braintree-gift-wrapping": "4.7.0",
-                "paypal/module-braintree-graph-ql": "4.7.0",
-                "paypal/module-braintree-reward": "4.7.0",
-                "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0"
+                "paypal/module-braintree-core": "4.6.1-p5",
+                "paypal/module-braintree-customer-balance": "4.6.1-p5",
+                "paypal/module-braintree-gift-card-account": "4.6.1-p5",
+                "paypal/module-braintree-gift-wrapping": "4.6.1-p5",
+                "paypal/module-braintree-graph-ql": "4.6.1-p5",
+                "php": "~8.1.0||~8.2.0||~8.3.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.5"
@@ -19246,17 +19244,18 @@
         },
         {
             "name": "paypal/module-braintree-core",
-            "version": "4.7.0",
+            "version": "4.6.1-p5",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/paypal/module-braintree-core/paypal-module-braintree-core-4.7.0.0.zip",
-                "shasum": "5f78caac844b293d836dd4453286202dda72e463"
+                "url": "https://repo.magento.com/archives/paypal/module-braintree-core/paypal-module-braintree-core-4.6.1.0-patch5.zip",
+                "shasum": "830661fe693863af4cd20c38a948ebe97fd5728b"
             },
             "require": {
                 "braintree/braintree_php": "6.21.0",
                 "ext-json": "*",
                 "ext-simplexml": "*",
                 "magento/framework": "*",
+                "magento/module-authorization": "100.4.*",
                 "magento/module-backend": "100.2.*||101.0.*||^102.0.0",
                 "magento/module-catalog": "102.0.*||103.0.*||^104.0.0",
                 "magento/module-checkout": "100.2.*||100.3.*||^100.4.0",
@@ -19265,6 +19264,7 @@
                 "magento/module-configurable-product": "100.4.*",
                 "magento/module-customer": "101.0.*||102.0.*||^103.0.0",
                 "magento/module-directory": "100.2.*||100.3.*||^100.4.0",
+                "magento/module-downloadable": "100.4.*",
                 "magento/module-grouped-product": "100.4.*",
                 "magento/module-instant-purchase": "100.4.*",
                 "magento/module-multishipping": "100.4.*",
@@ -19272,16 +19272,22 @@
                 "magento/module-paypal": "100.2.*||100.3.*||^101.0.0",
                 "magento/module-quote": "101.0.*||101.1.*||^101.2.0",
                 "magento/module-quote-graph-ql": "^100",
+                "magento/module-re-captcha-admin-ui": "1.1.*",
+                "magento/module-re-captcha-frontend-ui": "1.1.*",
                 "magento/module-re-captcha-ui": "1.1.*",
                 "magento/module-re-captcha-validation-api": "1.1.*",
+                "magento/module-re-captcha-version-2-checkbox": "2.0.*",
+                "magento/module-re-captcha-version-2-invisible": "2.0.*",
+                "magento/module-re-captcha-version-3-invisible": "2.0.*",
                 "magento/module-re-captcha-webapi-api": "1.0.*",
+                "magento/module-re-captcha-webapi-ui": "1.0.*",
                 "magento/module-sales": "101.0.*||102.0.*||^102.1.0||^103",
                 "magento/module-store": "101.1.*",
-                "magento/module-tax": "100.4.*",
                 "magento/module-theme": "100.2.*||101.0.*||^101.1.0",
                 "magento/module-ui": "101.0.*||101.1.*||^101.2.0",
                 "magento/module-vault": "101.0.*||101.1.*||^101.2.0",
-                "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0"
+                "magento/module-webapi": "100.4.*",
+                "php": "~8.1.0||~8.2.0||~8.3.0"
             },
             "conflict": {
                 "gene/module-braintree": "*",
@@ -19289,12 +19295,6 @@
             },
             "require-dev": {
                 "magento/magento-coding-standard": "^32.0"
-            },
-            "suggest": {
-                "magento/framework-foreign-key": "100.4.*",
-                "magento/module-re-captcha-admin-ui": "1.1.*",
-                "magento/module-re-captcha-checkout": "1.1.*",
-                "magento/module-re-captcha-webapi-ui": "1.0.*"
             },
             "type": "magento2-module",
             "autoload": {
@@ -19312,18 +19312,18 @@
         },
         {
             "name": "paypal/module-braintree-customer-balance",
-            "version": "4.7.0",
+            "version": "4.6.1-p5",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/paypal/module-braintree-customer-balance/paypal-module-braintree-customer-balance-4.7.0.0.zip",
-                "shasum": "491c237b9a6991a4da84f4c00f949c0579e91446"
+                "url": "https://repo.magento.com/archives/paypal/module-braintree-customer-balance/paypal-module-braintree-customer-balance-4.6.1.0-patch5.zip",
+                "shasum": "92f281784141dec6cc997e0057e46e3faa76a695"
             },
             "require": {
                 "magento/framework": "*",
                 "magento/module-quote": "101.0.*||101.1.*||^101.2.0",
                 "magento/module-sales": "101.0.*||102.0.*||^102.1.0||^103",
-                "paypal/module-braintree-core": "4.7.0",
-                "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0"
+                "paypal/module-braintree-core": "4.6.1-p5",
+                "php": "~8.1.0||~8.2.0||~8.3.0"
             },
             "suggest": {
                 "magento/module-customer-balance": "100.4.*"
@@ -19344,51 +19344,19 @@
             "description": "N/A"
         },
         {
-            "name": "paypal/module-braintree-gift-card",
-            "version": "4.7.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/paypal/module-braintree-gift-card/paypal-module-braintree-gift-card-4.7.0.0.zip",
-                "shasum": "a40c8e64b470ab4a30277baa44096212ef4996e3"
-            },
-            "require": {
-                "magento/framework": "*",
-                "magento/module-catalog": "^104.0.0",
-                "paypal/module-braintree-core": "4.7.0",
-                "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0"
-            },
-            "suggest": {
-                "magento/module-gift-card": "101.2.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "PayPal\\BraintreeGiftCard\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
             "name": "paypal/module-braintree-gift-card-account",
-            "version": "4.7.0",
+            "version": "4.6.1-p5",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/paypal/module-braintree-gift-card-account/paypal-module-braintree-gift-card-account-4.7.0.0.zip",
-                "shasum": "af375a63147916669d2e06fe90804e34269b64f0"
+                "url": "https://repo.magento.com/archives/paypal/module-braintree-gift-card-account/paypal-module-braintree-gift-card-account-4.6.1.0-patch5.zip",
+                "shasum": "712be241dff7a85623b137dd8ab46c9df20bf602"
             },
             "require": {
                 "magento/framework": "*",
                 "magento/module-quote": "101.0.*||101.1.*||^101.2.0",
                 "magento/module-sales": "101.0.*||102.0.*||^102.1.0||^103",
-                "paypal/module-braintree-core": "4.7.0",
-                "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0"
+                "paypal/module-braintree-core": "4.6.1-p5",
+                "php": "~8.1.0||~8.2.0||~8.3.0"
             },
             "suggest": {
                 "magento/module-gift-card-account": "101.2.*"
@@ -19410,17 +19378,18 @@
         },
         {
             "name": "paypal/module-braintree-gift-wrapping",
-            "version": "4.7.0",
+            "version": "4.6.1-p5",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/paypal/module-braintree-gift-wrapping/paypal-module-braintree-gift-wrapping-4.7.0.0.zip",
-                "shasum": "963cc499b85e17fdcbaba11f0fc3b94289b02fb4"
+                "url": "https://repo.magento.com/archives/paypal/module-braintree-gift-wrapping/paypal-module-braintree-gift-wrapping-4.6.1.0-patch5.zip",
+                "shasum": "5a9365fab80ca7432d16485531b51a1064b2230c"
             },
             "require": {
                 "magento/framework": "*",
+                "magento/module-quote": "101.0.*||101.1.*||^101.2.0",
                 "magento/module-sales": "101.0.*||102.0.*||^102.1.0||^103",
-                "paypal/module-braintree-core": "4.7.0",
-                "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0"
+                "paypal/module-braintree-core": "4.6.1-p5",
+                "php": "~8.1.0||~8.2.0||~8.3.0"
             },
             "suggest": {
                 "magento/module-gift-wrapping": "101.2.*"
@@ -19442,19 +19411,19 @@
         },
         {
             "name": "paypal/module-braintree-graph-ql",
-            "version": "4.7.0",
+            "version": "4.6.1-p5",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/paypal/module-braintree-graph-ql/paypal-module-braintree-graph-ql-4.7.0.0.zip",
-                "shasum": "9364f25131d3506f4a4342bb24e3907aa399b0e2"
+                "url": "https://repo.magento.com/archives/paypal/module-braintree-graph-ql/paypal-module-braintree-graph-ql-4.6.1.0-patch5.zip",
+                "shasum": "fb1f92040a421db6b2da621f361194d5fb558c01"
             },
             "require": {
                 "magento/framework": "*",
                 "magento/module-quote": "^101",
                 "magento/module-quote-graph-ql": "^100",
-                "magento/module-vault": "101.0.*||101.1.*||^101.2.0",
-                "paypal/module-braintree-core": "4.7.0",
-                "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0"
+                "magento/module-store": "^101",
+                "paypal/module-braintree-core": "4.6.1-p5",
+                "php": "~8.1.0||~8.2.0||~8.3.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.5"
@@ -19469,39 +19438,6 @@
                 ],
                 "psr-4": {
                     "PayPal\\BraintreeGraphQl\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "paypal/module-braintree-reward",
-            "version": "4.7.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/paypal/module-braintree-reward/paypal-module-braintree-reward-4.7.0.0.zip",
-                "shasum": "177144a2d25e50209dcbbcdff2ed71c7ff8b75ec"
-            },
-            "require": {
-                "magento/framework": "*",
-                "magento/module-quote": "101.0.*||101.1.*||^101.2.0",
-                "magento/module-sales": "101.0.*||102.0.*||^102.1.0||^103",
-                "paypal/module-braintree-core": "4.7.0",
-                "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0"
-            },
-            "suggest": {
-                "magento/module-reward": "101.2.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "PayPal\\BraintreeReward\\": ""
                 }
             },
             "license": [
@@ -21718,33 +21654,31 @@
         },
         {
             "name": "symfony/error-handler",
-            "version": "v7.3.2",
+            "version": "v6.4.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/error-handler.git",
-                "reference": "0b31a944fcd8759ae294da4d2808cbc53aebd0c3"
+                "reference": "30fd0b3cf0e972e82636038ce4db0e4fe777112c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/error-handler/zipball/0b31a944fcd8759ae294da4d2808cbc53aebd0c3",
-                "reference": "0b31a944fcd8759ae294da4d2808cbc53aebd0c3",
+                "url": "https://api.github.com/repos/symfony/error-handler/zipball/30fd0b3cf0e972e82636038ce4db0e4fe777112c",
+                "reference": "30fd0b3cf0e972e82636038ce4db0e4fe777112c",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.2",
+                "php": ">=8.1",
                 "psr/log": "^1|^2|^3",
-                "symfony/var-dumper": "^6.4|^7.0"
+                "symfony/var-dumper": "^5.4|^6.0|^7.0"
             },
             "conflict": {
                 "symfony/deprecation-contracts": "<2.5",
                 "symfony/http-kernel": "<6.4"
             },
             "require-dev": {
-                "symfony/console": "^6.4|^7.0",
                 "symfony/deprecation-contracts": "^2.5|^3",
                 "symfony/http-kernel": "^6.4|^7.0",
-                "symfony/serializer": "^6.4|^7.0",
-                "symfony/webpack-encore-bundle": "^1.0|^2.0"
+                "symfony/serializer": "^5.4|^6.0|^7.0"
             },
             "bin": [
                 "Resources/bin/patch-type-declarations"
@@ -21775,7 +21709,7 @@
             "description": "Provides tools to manage errors and ease debugging PHP code",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/error-handler/tree/v7.3.2"
+                "source": "https://github.com/symfony/error-handler/tree/v6.4.24"
             },
             "funding": [
                 {
@@ -21795,7 +21729,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-07-07T08:17:57+00:00"
+            "time": "2025-07-24T08:25:04+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -22097,30 +22031,28 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v7.3.2",
+            "version": "v6.4.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "1c064a0c67749923483216b081066642751cc2c7"
+                "reference": "6d78fe8abecd547c159b8a49f7c88610630b7da2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/1c064a0c67749923483216b081066642751cc2c7",
-                "reference": "1c064a0c67749923483216b081066642751cc2c7",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/6d78fe8abecd547c159b8a49f7c88610630b7da2",
+                "reference": "6d78fe8abecd547c159b8a49f7c88610630b7da2",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.2",
+                "php": ">=8.1",
                 "psr/log": "^1|^2|^3",
                 "symfony/deprecation-contracts": "^2.5|^3",
                 "symfony/http-client-contracts": "~3.4.4|^3.5.2",
                 "symfony/service-contracts": "^2.5|^3"
             },
             "conflict": {
-                "amphp/amp": "<2.5",
-                "amphp/socket": "<1.1",
                 "php-http/discovery": "<1.15",
-                "symfony/http-foundation": "<6.4"
+                "symfony/http-foundation": "<6.3"
             },
             "provide": {
                 "php-http/async-client-implementation": "*",
@@ -22129,19 +22061,19 @@
                 "symfony/http-client-implementation": "3.0"
             },
             "require-dev": {
-                "amphp/http-client": "^4.2.1|^5.0",
-                "amphp/http-tunnel": "^1.0|^2.0",
+                "amphp/amp": "^2.5",
+                "amphp/http-client": "^4.2.1",
+                "amphp/http-tunnel": "^1.0",
+                "amphp/socket": "^1.1",
                 "guzzlehttp/promises": "^1.4|^2.0",
                 "nyholm/psr7": "^1.0",
                 "php-http/httplug": "^1.0|^2.0",
                 "psr/http-client": "^1.0",
-                "symfony/amphp-http-client-meta": "^1.0|^2.0",
-                "symfony/dependency-injection": "^6.4|^7.0",
-                "symfony/http-kernel": "^6.4|^7.0",
-                "symfony/messenger": "^6.4|^7.0",
-                "symfony/process": "^6.4|^7.0",
-                "symfony/rate-limiter": "^6.4|^7.0",
-                "symfony/stopwatch": "^6.4|^7.0"
+                "symfony/dependency-injection": "^5.4|^6.0|^7.0",
+                "symfony/http-kernel": "^5.4|^6.0|^7.0",
+                "symfony/messenger": "^5.4|^6.0|^7.0",
+                "symfony/process": "^5.4|^6.0|^7.0",
+                "symfony/stopwatch": "^5.4|^6.0|^7.0"
             },
             "type": "library",
             "autoload": {
@@ -22172,7 +22104,7 @@
                 "http"
             ],
             "support": {
-                "source": "https://github.com/symfony/http-client/tree/v7.3.2"
+                "source": "https://github.com/symfony/http-client/tree/v6.4.24"
             },
             "funding": [
                 {
@@ -22192,7 +22124,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-07-15T11:36:08+00:00"
+            "time": "2025-07-14T16:38:25+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
@@ -22355,73 +22287,73 @@
         },
         {
             "name": "symfony/http-kernel",
-            "version": "v7.2.9",
+            "version": "v6.4.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "d0cc0295c9c2fd5e053fee2b2a143001f2d0c33c"
+                "reference": "b81dcdbe34b8e8f7b3fc7b2a47fa065d5bf30726"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/d0cc0295c9c2fd5e053fee2b2a143001f2d0c33c",
-                "reference": "d0cc0295c9c2fd5e053fee2b2a143001f2d0c33c",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/b81dcdbe34b8e8f7b3fc7b2a47fa065d5bf30726",
+                "reference": "b81dcdbe34b8e8f7b3fc7b2a47fa065d5bf30726",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.2",
+                "php": ">=8.1",
                 "psr/log": "^1|^2|^3",
                 "symfony/deprecation-contracts": "^2.5|^3",
                 "symfony/error-handler": "^6.4|^7.0",
-                "symfony/event-dispatcher": "^6.4|^7.0",
+                "symfony/event-dispatcher": "^5.4|^6.0|^7.0",
                 "symfony/http-foundation": "^6.4|^7.0",
                 "symfony/polyfill-ctype": "^1.8"
             },
             "conflict": {
-                "symfony/browser-kit": "<6.4",
-                "symfony/cache": "<6.4",
-                "symfony/config": "<6.4",
-                "symfony/console": "<6.4",
+                "symfony/browser-kit": "<5.4",
+                "symfony/cache": "<5.4",
+                "symfony/config": "<6.1",
+                "symfony/console": "<5.4",
                 "symfony/dependency-injection": "<6.4",
-                "symfony/doctrine-bridge": "<6.4",
-                "symfony/form": "<6.4",
-                "symfony/http-client": "<6.4",
+                "symfony/doctrine-bridge": "<5.4",
+                "symfony/form": "<5.4",
+                "symfony/http-client": "<5.4",
                 "symfony/http-client-contracts": "<2.5",
-                "symfony/mailer": "<6.4",
-                "symfony/messenger": "<6.4",
-                "symfony/translation": "<6.4",
+                "symfony/mailer": "<5.4",
+                "symfony/messenger": "<5.4",
+                "symfony/translation": "<5.4",
                 "symfony/translation-contracts": "<2.5",
-                "symfony/twig-bridge": "<6.4",
+                "symfony/twig-bridge": "<5.4",
                 "symfony/validator": "<6.4",
-                "symfony/var-dumper": "<6.4",
-                "twig/twig": "<3.12"
+                "symfony/var-dumper": "<6.3",
+                "twig/twig": "<2.13"
             },
             "provide": {
                 "psr/log-implementation": "1.0|2.0|3.0"
             },
             "require-dev": {
                 "psr/cache": "^1.0|^2.0|^3.0",
-                "symfony/browser-kit": "^6.4|^7.0",
-                "symfony/clock": "^6.4|^7.0",
-                "symfony/config": "^6.4|^7.0",
-                "symfony/console": "^6.4|^7.0",
-                "symfony/css-selector": "^6.4|^7.0",
+                "symfony/browser-kit": "^5.4|^6.0|^7.0",
+                "symfony/clock": "^6.2|^7.0",
+                "symfony/config": "^6.1|^7.0",
+                "symfony/console": "^5.4|^6.0|^7.0",
+                "symfony/css-selector": "^5.4|^6.0|^7.0",
                 "symfony/dependency-injection": "^6.4|^7.0",
-                "symfony/dom-crawler": "^6.4|^7.0",
-                "symfony/expression-language": "^6.4|^7.0",
-                "symfony/finder": "^6.4|^7.0",
+                "symfony/dom-crawler": "^5.4|^6.0|^7.0",
+                "symfony/expression-language": "^5.4|^6.0|^7.0",
+                "symfony/finder": "^5.4|^6.0|^7.0",
                 "symfony/http-client-contracts": "^2.5|^3",
-                "symfony/process": "^6.4|^7.0",
-                "symfony/property-access": "^7.1",
-                "symfony/routing": "^6.4|^7.0",
-                "symfony/serializer": "^7.1",
-                "symfony/stopwatch": "^6.4|^7.0",
-                "symfony/translation": "^6.4|^7.0",
+                "symfony/process": "^5.4|^6.0|^7.0",
+                "symfony/property-access": "^5.4.5|^6.0.5|^7.0",
+                "symfony/routing": "^5.4|^6.0|^7.0",
+                "symfony/serializer": "^6.4.4|^7.0.4",
+                "symfony/stopwatch": "^5.4|^6.0|^7.0",
+                "symfony/translation": "^5.4|^6.0|^7.0",
                 "symfony/translation-contracts": "^2.5|^3",
-                "symfony/uid": "^6.4|^7.0",
+                "symfony/uid": "^5.4|^6.0|^7.0",
                 "symfony/validator": "^6.4|^7.0",
-                "symfony/var-dumper": "^6.4|^7.0",
-                "symfony/var-exporter": "^6.4|^7.0",
-                "twig/twig": "^3.12"
+                "symfony/var-dumper": "^5.4|^6.4|^7.0",
+                "symfony/var-exporter": "^6.2|^7.0",
+                "twig/twig": "^2.13|^3.0.4"
             },
             "type": "library",
             "autoload": {
@@ -22449,7 +22381,7 @@
             "description": "Provides a structured process for converting a Request into a Response",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-kernel/tree/v7.2.9"
+                "source": "https://github.com/symfony/http-kernel/tree/v6.4.24"
             },
             "funding": [
                 {
@@ -22469,7 +22401,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-07-31T09:36:38+00:00"
+            "time": "2025-07-31T09:23:30+00:00"
         },
         {
             "name": "symfony/intl",
@@ -23508,32 +23440,33 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v7.3.2",
+            "version": "v6.4.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "53205bea27450dc5c65377518b3275e126d45e75"
+                "reference": "aa29484ce0544bd69fa9f0df902e5ed7b7fe5034"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/53205bea27450dc5c65377518b3275e126d45e75",
-                "reference": "53205bea27450dc5c65377518b3275e126d45e75",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/aa29484ce0544bd69fa9f0df902e5ed7b7fe5034",
+                "reference": "aa29484ce0544bd69fa9f0df902e5ed7b7fe5034",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.2",
+                "php": ">=8.1",
                 "symfony/deprecation-contracts": "^2.5|^3",
                 "symfony/polyfill-mbstring": "~1.0"
             },
             "conflict": {
-                "symfony/console": "<6.4"
+                "symfony/console": "<5.4"
             },
             "require-dev": {
-                "symfony/console": "^6.4|^7.0",
-                "symfony/http-kernel": "^6.4|^7.0",
-                "symfony/process": "^6.4|^7.0",
-                "symfony/uid": "^6.4|^7.0",
-                "twig/twig": "^3.12"
+                "symfony/console": "^5.4|^6.0|^7.0",
+                "symfony/error-handler": "^6.3|^7.0",
+                "symfony/http-kernel": "^5.4|^6.0|^7.0",
+                "symfony/process": "^5.4|^6.0|^7.0",
+                "symfony/uid": "^5.4|^6.0|^7.0",
+                "twig/twig": "^2.13|^3.0.4"
             },
             "bin": [
                 "Resources/bin/var-dump-server"
@@ -23571,7 +23504,7 @@
                 "dump"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-dumper/tree/v7.3.2"
+                "source": "https://github.com/symfony/var-dumper/tree/v6.4.24"
             },
             "funding": [
                 {
@@ -23591,7 +23524,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-07-29T20:02:46+00:00"
+            "time": "2025-07-29T18:40:01+00:00"
         },
         {
             "name": "symfony/var-exporter",
@@ -23676,28 +23609,28 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v7.3.2",
+            "version": "v6.4.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "b8d7d868da9eb0919e99c8830431ea087d6aae30"
+                "reference": "742a8efc94027624b36b10ba58e23d402f961f51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/b8d7d868da9eb0919e99c8830431ea087d6aae30",
-                "reference": "b8d7d868da9eb0919e99c8830431ea087d6aae30",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/742a8efc94027624b36b10ba58e23d402f961f51",
+                "reference": "742a8efc94027624b36b10ba58e23d402f961f51",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.2",
-                "symfony/deprecation-contracts": "^2.5|^3.0",
+                "php": ">=8.1",
+                "symfony/deprecation-contracts": "^2.5|^3",
                 "symfony/polyfill-ctype": "^1.8"
             },
             "conflict": {
-                "symfony/console": "<6.4"
+                "symfony/console": "<5.4"
             },
             "require-dev": {
-                "symfony/console": "^6.4|^7.0"
+                "symfony/console": "^5.4|^6.0|^7.0"
             },
             "bin": [
                 "Resources/bin/yaml-lint"
@@ -23728,7 +23661,7 @@
             "description": "Loads and dumps YAML files",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/yaml/tree/v7.3.2"
+                "source": "https://github.com/symfony/yaml/tree/v6.4.24"
             },
             "funding": [
                 {
@@ -23748,7 +23681,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-07-10T08:47:49+00:00"
+            "time": "2025-07-10T08:14:14+00:00"
         },
         {
             "name": "tedivm/jshrink",
@@ -24644,33 +24577,33 @@
         },
         {
             "name": "codeception/codeception",
-            "version": "5.3.2",
+            "version": "5.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeception/Codeception.git",
-                "reference": "582112d7a603d575e41638df1e96900b10ae91b8"
+                "reference": "7d5e5b8736ee8eb9a3f08323a65fd7935270c8d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/582112d7a603d575e41638df1e96900b10ae91b8",
-                "reference": "582112d7a603d575e41638df1e96900b10ae91b8",
+                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/7d5e5b8736ee8eb9a3f08323a65fd7935270c8d1",
+                "reference": "7d5e5b8736ee8eb9a3f08323a65fd7935270c8d1",
                 "shasum": ""
             },
             "require": {
                 "behat/gherkin": "^4.12",
-                "codeception/lib-asserts": "^2.2",
+                "codeception/lib-asserts": "^2.0",
                 "codeception/stub": "^4.1",
                 "ext-curl": "*",
                 "ext-json": "*",
                 "ext-mbstring": "*",
-                "php": "^8.2",
-                "phpunit/php-code-coverage": "^9.2 | ^10.0 | ^11.0 | ^12.0",
-                "phpunit/php-text-template": "^2.0 | ^3.0 | ^4.0 | ^5.0",
-                "phpunit/php-timer": "^5.0.3 | ^6.0 | ^7.0 | ^8.0",
-                "phpunit/phpunit": "^9.5.20 | ^10.0 | ^11.0 | ^12.0",
-                "psy/psysh": "^0.11.2 | ^0.12",
-                "sebastian/comparator": "^4.0.5 | ^5.0 | ^6.0 | ^7.0",
-                "sebastian/diff": "^4.0.3 | ^5.0 | ^6.0 | ^7.0",
+                "php": "^8.1",
+                "phpunit/php-code-coverage": "^9.2 || ^10.0 || ^11.0 || ^12.0",
+                "phpunit/php-text-template": "^2.0 || ^3.0 || ^4.0 || ^5.0",
+                "phpunit/php-timer": "^5.0.3 || ^6.0 || ^7.0 || ^8.0",
+                "phpunit/phpunit": "^9.5.20 || ^10.0 || ^11.0 || ^12.0",
+                "psy/psysh": "^0.11.2 || ^0.12",
+                "sebastian/comparator": "^4.0.5 || ^5.0 || ^6.0 || ^7.0",
+                "sebastian/diff": "^4.0.3 || ^5.0 || ^6.0 || ^7.0",
                 "symfony/console": ">=5.4.24 <8.0",
                 "symfony/css-selector": ">=5.4.24 <8.0",
                 "symfony/event-dispatcher": ">=5.4.24 <8.0",
@@ -24694,16 +24627,10 @@
                 "codeception/module-db": "*@dev",
                 "codeception/module-filesystem": "*@dev",
                 "codeception/module-phpbrowser": "*@dev",
-                "codeception/module-webdriver": "*@dev",
                 "codeception/util-universalframework": "*@dev",
-                "doctrine/orm": "^3.3",
                 "ext-simplexml": "*",
                 "jetbrains/phpstorm-attributes": "^1.0",
-                "laravel-zero/phar-updater": "^1.4",
-                "php-webdriver/webdriver": "^1.15",
-                "stecman/symfony-console-completion": "^0.14",
                 "symfony/dotenv": ">=5.4.24 <8.0",
-                "symfony/error-handler": ">=5.4.24 <8.0",
                 "symfony/process": ">=5.4.24 <8.0",
                 "vlucas/phpdotenv": "^5.1"
             },
@@ -24759,7 +24686,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Codeception/Codeception/issues",
-                "source": "https://github.com/Codeception/Codeception/tree/5.3.2"
+                "source": "https://github.com/Codeception/Codeception/tree/5.2.2"
             },
             "funding": [
                 {
@@ -24767,7 +24694,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2025-05-26T07:47:39+00:00"
+            "time": "2025-05-07T12:48:28+00:00"
         },
         {
             "name": "codeception/lib-asserts",
@@ -24878,22 +24805,22 @@
         },
         {
             "name": "codeception/module-asserts",
-            "version": "3.2.0",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeception/module-asserts.git",
-                "reference": "eb1f7c980423888f3def5116635754ae4a75bd47"
+                "reference": "c58281f3d741599c81676bcb92996cf1e22d9ffd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codeception/module-asserts/zipball/eb1f7c980423888f3def5116635754ae4a75bd47",
-                "reference": "eb1f7c980423888f3def5116635754ae4a75bd47",
+                "url": "https://api.github.com/repos/Codeception/module-asserts/zipball/c58281f3d741599c81676bcb92996cf1e22d9ffd",
+                "reference": "c58281f3d741599c81676bcb92996cf1e22d9ffd",
                 "shasum": ""
             },
             "require": {
                 "codeception/codeception": "*@dev",
-                "codeception/lib-asserts": "^2.2",
-                "php": "^8.2"
+                "codeception/lib-asserts": "^2.0",
+                "php": "^8.1"
             },
             "conflict": {
                 "codeception/codeception": "<5.0"
@@ -24929,9 +24856,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Codeception/module-asserts/issues",
-                "source": "https://github.com/Codeception/module-asserts/tree/3.2.0"
+                "source": "https://github.com/Codeception/module-asserts/tree/3.1.0"
             },
-            "time": "2025-05-02T02:33:11+00:00"
+            "time": "2025-04-24T17:18:25+00:00"
         },
         {
             "name": "codeception/module-sequence",
@@ -28997,20 +28924,20 @@
         },
         {
             "name": "symfony/options-resolver",
-            "version": "v7.3.2",
+            "version": "v6.4.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/options-resolver.git",
-                "reference": "119bcf13e67dbd188e5dbc74228b1686f66acd37"
+                "reference": "baee5736ddf7a0486dd68ca05aa4fd7e64458d3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/119bcf13e67dbd188e5dbc74228b1686f66acd37",
-                "reference": "119bcf13e67dbd188e5dbc74228b1686f66acd37",
+                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/baee5736ddf7a0486dd68ca05aa4fd7e64458d3d",
+                "reference": "baee5736ddf7a0486dd68ca05aa4fd7e64458d3d",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.2",
+                "php": ">=8.1",
                 "symfony/deprecation-contracts": "^2.5|^3"
             },
             "type": "library",
@@ -29044,7 +28971,7 @@
                 "options"
             ],
             "support": {
-                "source": "https://github.com/symfony/options-resolver/tree/v7.3.2"
+                "source": "https://github.com/symfony/options-resolver/tree/v6.4.24"
             },
             "funding": [
                 {
@@ -29064,7 +28991,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-07-15T11:36:08+00:00"
+            "time": "2025-07-14T16:38:25+00:00"
         },
         {
             "name": "symfony/stopwatch",
