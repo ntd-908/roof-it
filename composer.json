@@ -21,7 +21,8 @@
         "hybridauth/hybridauth": "^3.7",
         "magento/composer-dependency-version-audit-plugin": "~0.1",
         "magento/composer-root-update-plugin": "^2.0.4",
-        "magento/product-community-edition": "2.4.7"
+        "magento/product-community-edition": "2.4.7",
+        "stripe/stripe-php": "^17.6"
     },
     "autoload": {
         "exclude-from-classmap": [
