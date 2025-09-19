@@ -1709,3 +1709,95 @@
     @rem: (@font-size / 10);
     font-size: ~"@{rem}rem";
 }
+
+//
+//  Mobile (styles-m.css)
+//  _____________________________________________
+.media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__m) {
+   .category-image-container {
+        margin-bottom: 40px;
+        img{
+            max-width: 100%;
+        }
+    }
+     .selling-feature {
+        border-block: 1px solid #ccc !important;
+        .media-heading{
+            font-weight: @font-weight__regular;
+            font-size: 1.4rem;
+        }
+        .row>div{
+            margin-bottom: 0;
+        }
+        .media-body{
+            padding-block:12px;
+        }
+    }
+    .mobile-trad-inquires-button{
+        text-align: center;
+        display: block;
+        a{
+            padding: 2px 20px;
+            background: red;
+            color: @color-white;
+            font-size: 14px;
+            display: inline-block;
+            text-transform: uppercase;
+            span{
+                font-weight: @font-weight__heavier;
+            }
+        }
+    }
+}
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__m) {
+    .col-btn-actions {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        background: #fff;
+        padding: 0 15px 2px 15px;
+        width: 100%;
+        -webkit-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        .header-content-action{
+            float: none;
+            position: relative;
+            display: flex;
+            & >div{
+                text-align: center;
+            }
+        }
+        .header-content-action>div{
+            text-align: center;
+        }
+    }
+}
+
+
+//
+//  Desktop (styles-l.css)
+//  _____________________________________________
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__m) {
+   .category-image-container {
+        margin-bottom: 40px;
+        img{
+            max-width: 100%;
+        }
+    }
+    .selling-feature {
+        .media-heading{
+            font-weight: @font-weight__regular;
+            font-size: 1.4rem;
+        }        
+        .media-body{
+            padding-block:12px;
+        }
+    }
+    .mobile-trad-inquires-button{
+        display: none;
+    }
+    .selling-feature .row>div{
+        border-bottom: 1px solid #ccc !important;   
+    }
+}
