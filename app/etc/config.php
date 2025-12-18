@@ -360,7 +360,7 @@ return [
         'MageBig_AjaxSearch' => 1,
         'MageBig_Ajaxcompare' => 1,
         'MageBig_Ajaxwishlist' => 1,
-        'MageBig_ExtendPageBuilder' => 1,
+        'MageBig_ExtendPageBuilder' => 0,
         'MageBig_MbFrame' => 1,
         'MageBig_AjaxCart' => 1,
         'MageBig_NewsPopup' => 1,
@@ -374,10 +374,13 @@ return [
         'Magefan_Community' => 1,
         'Magefan_Blog' => 1,
         'Magefan_BlogGraphQl' => 1,
+        'Owebia_SharedPhpConfig' => 1,
+        'Owebia_AdvancedShipping' => 1,
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeCustomerBalance' => 1,
         'PayPal_BraintreeGiftCardAccount' => 1,
         'PayPal_BraintreeGiftWrapping' => 1,
-        'PayPal_BraintreeGraphQl' => 1
+        'PayPal_BraintreeGraphQl' => 1,
+        'StripeIntegration_Payments' => 1
     ]
 ];
